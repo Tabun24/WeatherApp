@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_margin="5dp"
+   		android:background="#E5E4E2"
+   		android:textStyle="bold"
+   		 />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:layout_marginTop="10dp"
+        android:background="#E5E4E2" >
+
+        <TextView
+            android:id="@+id/tvTime"
+            style="@style/weather" />
+
+        <TextView
+            android:id="@+id/tvTimeValue"
+            android:layout_marginLeft="30dp"
+            style="@style/weather" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="1dp"
+   		android:background="#E5E4E2"
+   		 >
+
+        <TextView
+            android:id="@+id/tvTemperature"
+            style="@style/weather"
+            />
+
+        <TextView
+            android:id="@+id/tvTemperatureValue"
+            style="@style/weather"
+            android:layout_marginLeft="20dp"
+            
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" 
+        android:layout_margin="1dp"
+   		android:background="#E5E4E2" >
+
+        <ImageView
+            android:id="@+id/ivWeatherIcon"
+            style="@style/weather"
+            
+             />
+
+        <TextView
+            android:id="@+id/tvWeatherDescription"
+            android:layout_width="match_parent"
+      		android:layout_height="wrap_content"
+      		android:textSize="20sp"
+            android:layout_marginLeft="40dp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"
+             />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="1dp"
+   		android:background="#E5E4E2"  >
+    
+    <TextView
+            android:id="@+id/tvPressure"
+            style="@style/weather"
+            />
+
+        <TextView
+            android:id="@+id/tvPressureValue"
+            style="@style/weather"
+            android:layout_marginLeft="60dp"
+             />
+
+    </LinearLayout>
+ 
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="1dp"
+   		android:background="#E5E4E2"  >
+    
+    <TextView
+            android:id="@+id/tvHumidity"
+            style="@style/weather"
+            />
+
+        <TextView
+            android:id="@+id/tvHumidityValue"
+            style="@style/weather"
+            android:layout_marginLeft="55dp"
+             />
+
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="1dp"
+   		android:background="#E5E4E2"  >
+    
+    <TextView
+            android:id="@+id/tvSunRise"
+            style="@style/weather"
+            />
+
+        <TextView
+            android:id="@+id/tvSunRiseValue"
+            style="@style/weather"
+            android:layout_marginLeft="65dp"
+             />
+
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="1dp"
+   		android:background="#E5E4E2"  >
+    
+    <TextView
+            android:id="@+id/tvSunSet"
+            style="@style/weather"
+            />
+
+        <TextView
+            android:id="@+id/tvSunSetValue"
+            style="@style/weather"
+            android:layout_marginLeft="70dp"
+             />
+
+    </LinearLayout>
+    
+    
+
+</LinearLayout>

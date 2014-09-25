@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WeatherApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="time">Last update</string>
+    <string name="temperature">Temperature</string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="sun_rise">Sun rise</string>
+    <string name="sun_set">Sun set</string>
+    
+    <string name="widget_name">Wheather</string>
+    <string name="refresh">""</string>
+    
+    
+    
+    <string name="title_pref">Receiving data on</string>
+    <string name="setting">Setting</string>
+    <string name="history">History</string>
+    
+    <string-array name ="entries" >
+        <item >Name of city</item>
+        <item >Coordinates</item>
+    </string-array>
+    
+   <string-array name ="entries_values" >
+        <item >city</item>
+        <item >coord</item>
+    </string-array>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</resources>
