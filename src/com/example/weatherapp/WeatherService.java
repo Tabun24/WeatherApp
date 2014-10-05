@@ -89,7 +89,7 @@ public class WeatherService extends Service {
 				try {
 					String cod = response.getString("cod");  // {"cod":"404","message":"Error: Not found city"}
 					if(cod.equalsIgnoreCase("404")){ 
-							gsonParser = null;
+					gsonParser = null;
 					Toast.makeText(getApplicationContext(), "Error: Not found city", Toast.LENGTH_SHORT).show();
 					}
 				} catch (JSONException e) {
@@ -105,7 +105,7 @@ public class WeatherService extends Service {
 					SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
 					String name = sp.getString("list_pref", "city").equalsIgnoreCase("city")? gsonParser.getName() : gsonParser.getCoord().getLatLon();
 					if(!TimeConverter.IsToday(db.getDate()))
-						db.deleteAll();
+					db.deleteAll();
 					db.addNewItem(name, gsonParser.getMain().getTemp(),gsonParser.getDtTime(),gsonParser.getDtDate());
 					db.close();
 					
