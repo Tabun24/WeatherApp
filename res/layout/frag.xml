@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="1dp"
         android:layout_marginTop="10dp"
-        android:background="#E5E4E2" >
+        >
 
         <TextView
             android:id="@+id/tvTime"
@@ -40,8 +40,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_margin="1dp"
-   		android:background="#E5E4E2"
-   		 >
+   		>
 
         <TextView
             android:id="@+id/tvTemperature"
@@ -62,13 +61,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp" 
         android:layout_margin="1dp"
-   		android:background="#E5E4E2" >
+   		>
 
         <ImageView
             android:id="@+id/ivWeatherIcon"
             style="@style/weather"
-            
-             />
+            />
 
         <TextView
             android:id="@+id/tvWeatherDescription"
@@ -87,9 +85,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_margin="1dp"
-   		android:background="#E5E4E2"  >
+   		 >
     
-    <TextView
+  	   <TextView
             android:id="@+id/tvPressure"
             style="@style/weather"
             />
@@ -108,9 +106,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_margin="1dp"
-   		android:background="#E5E4E2"  >
+   		 >
     
-    <TextView
+	    <TextView
             android:id="@+id/tvHumidity"
             style="@style/weather"
             />
@@ -128,9 +126,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_margin="1dp"
-   		android:background="#E5E4E2"  >
+   		  >
     
-    <TextView
+   	   <TextView
             android:id="@+id/tvSunRise"
             style="@style/weather"
             />
@@ -148,9 +146,9 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_margin="1dp"
-   		android:background="#E5E4E2"  >
+   		 >
     
-    <TextView
+  	    <TextView
             android:id="@+id/tvSunSet"
             style="@style/weather"
             />
