@@ -61,12 +61,22 @@ public class WeatherFragment extends Fragment {
 		public void onReceive(Context context, Intent intent) {
 			if(ACTION_DOWNLOAD_COMPLETE.equals(intent.getAction())){
 				fillView();
+				getActivity().findViewById(R.id.progressBar1).setVisibility(View.GONE);
+				getActivity().findViewById(R.id.cont).setVisibility(View.VISIBLE);
 			}
 		}
 		
 	};
 	
 
+	static WeatherFragment newInstance(){
+		WeatherFragment fragmetn = new WeatherFragment();
+		return fragmetn;
+	}
+	
+	
+	
+	
 	@Override
 	public void onStop() {
 		super.onStop();
